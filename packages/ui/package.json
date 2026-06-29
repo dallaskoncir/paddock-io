@@ -1,0 +1,13 @@
+{
+  "name": "@paddock/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'no build yet'",
+    "lint": "echo 'no lint yet'"
+  },
+  "dependencies": {
+    "@paddock/config": "workspace:*"
+  }
+}
