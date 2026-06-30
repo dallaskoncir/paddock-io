@@ -1,0 +1,10 @@
+{
+  "extends": "@paddock/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "noEmit": true
+  },
+  "include": ["src", ".storybook", "*.d.ts"],
+  "exclude": ["node_modules", "dist", "**/*.stories.tsx"]
+}
